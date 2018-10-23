@@ -1,0 +1,28 @@
+{
+  "name": "hashtag",
+  "version": "1.0.0",
+  "description": "Social media app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asrma7/ChatAppServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asrma7/ChatAppServer/issues"
+  },
+  "homepage": "https://github.com/asrma7/ChatAppServer#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "4.16.4",
+    "nodemon": "^1.18.4",
+    "ws": "6.1.0",
+    "mysql": "^2.16.0",
+    "request": "^2.88.0"
+  }
+}
